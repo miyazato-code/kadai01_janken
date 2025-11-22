@@ -34,7 +34,7 @@
     <main>
         <div id="total_plays_area">
             <p>通算対戦回数：<span id="total_plays">0</span>回</p>
-            <button id="rest_plays_btn">リセット</button>
+            <!-- <button id="rest_plays_btn">リセット</button> -->
         </div>
 
         <div id="score_board">
@@ -86,7 +86,7 @@
         const gameHistoryElement = document.querySelector('#game_history');
         const totalPlaysElement = document.querySelector('#total_plays');
 
-        const resetPlaysBtn = document.querySelector('#rest_plays_btn');
+        // const resetPlaysBtn = document.querySelector('#rest_plays_btn');
 
         const guBtn = document.querySelector('#gu_btn');
         const choBtn = document.querySelector('#cho_btn');
@@ -139,14 +139,14 @@
 
         }
 
-        function resetTotalPlays() {
+        // function resetTotalPlays() {
             // localStorageの値を0に設定
-            localStorage.setItem(TOTAL_PLAYS_KEY, 0);
+            // localStorage.setItem(TOTAL_PLAYS_KEY, 0);
             // 画面の表示を0に更新
-            totalPlaysElement.textContent = 0;
+            // totalPlaysElement.textContent = 0;
 
-            alert("通算対戦回数をリセットしました。");
-        }
+            // alert("通算対戦回数をリセットしました。");
+        // }
 
         /**
          * じゃんけんのメインロジック関数
