@@ -5,7 +5,7 @@
 - PCとじゃんけんするゲーム
 
 ## ③アプリのデプロイURL
-
+https://miyazato-code.github.io/kadai01_janken/
 
 ## ④アプリのログイン用IDまたはPassword（ある場合）
 - ID: 今回なし
