@@ -27,5 +27,5 @@ https://miyazato-code.github.io/kadai01_janken/
 
 
 - [参考記事]
-  - 1. [URLをここに記入]
+  - 1. https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Grammar_and_types
   - 2. [URLをここに記入]
